@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import saxophone from "./saxophone_cat_400.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={saxophone} className="App-logo" alt="saxophone_cat" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
