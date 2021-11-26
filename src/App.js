@@ -1,6 +1,7 @@
 import saxophone from "./saxophone_cat_400.png";
 import "./App.css";
 import Cat from "./Cat";
+import Posts from "./Posts";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <img src={saxophone} className="App-logo" alt="saxophone_cat" />
         <br />
         <Cat />
-        <a href="https://purrcity.org/">Join me here</a>
+        <a href="https://purrcity.org/">Post what you want</a>
+        <Posts />
       </header>
     </div>
   );
